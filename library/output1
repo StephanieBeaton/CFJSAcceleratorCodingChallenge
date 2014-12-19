@@ -1,0 +1,103 @@
+
+create new library
+
+display Library
+library.shelves.length = 0
+
+add 1 shelf to the library
+
+display Library
+library.shelves.length = 1
+display shelf 0
+
+display shelf
+shelfNumber = 1
+booksOnShelf.length = 0
+
+get shelf 1
+
+display shelf
+shelfNumber = 1
+booksOnShelf.length = 0
+
+create new book - Gone With the Wind
+
+display book
+title = Gone With the Wind
+author = Margret Mitchell
+
+put Gone With the Wind on shelf 1
+
+inside Book.enshelf
+
+inside Shelf.putBookOnShelf
+
+display shelf
+shelfNumber = 1
+booksOnShelf.length = 1
+displaying book 0 on shelf
+
+display book
+title = Gone With the Wind
+author = Margret Mitchell
+
+create new book - JavaScript for Dummies
+
+display book
+title = JavaScript for Dummies
+author = John Smith
+
+put JavaScript for Dummies on shelf 1
+
+inside Book.enshelf
+
+inside Shelf.putBookOnShelf
+
+display shelf
+shelfNumber = 1
+booksOnShelf.length = 2
+displaying book 0 on shelf
+
+display book
+title = Gone With the Wind
+author = Margret Mitchell
+displaying book 1 on shelf
+
+display book
+title = JavaScript for Dummies
+author = John Smith
+
+inside Library.reportAllBooks
+Shelf Number = 1
+Gone With the Wind
+JavaScript for Dummies
+exiting Library.reportAllBooks
+remove a book from shelf 1
+
+inside Book.unshelf
+
+inside Shelf.takeBookOffShelf
+
+display shelf
+shelfNumber = 1
+booksOnShelf.length = 1
+displaying book 0 on shelf
+
+display book
+title = JavaScript for Dummies
+author = John Smith
+exiting Shelf.takeBookOffShelf
+
+display shelf
+shelfNumber = 1
+booksOnShelf.length = 1
+displaying book 0 on shelf
+
+display book
+title = JavaScript for Dummies
+author = John Smith
+
+inside Library.reportAllBooks
+Shelf Number = 1
+JavaScript for Dummies
+exiting Library.reportAllBooks
